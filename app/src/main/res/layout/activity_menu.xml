@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/menu_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/img_background" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/menu_LBL_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Snack Attack"
+        android:textColor="#20243A"
+        android:textSize="50sp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/menu_LBL_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_LBL_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Choose your Mode:"
+        android:textColor="#20243A"
+        android:textSize="45sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_regular"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_LBL_mode"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Regular Mode"
+        android:textColor="#20243A"
+        android:textSize="30sp"
+        app:backgroundTint="#2196F3"
+        app:cornerRadius="120dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_endless"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_BTN_regular"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Endless Mode"
+        android:textColor="#20243A"
+        android:textSize="30sp"
+        app:backgroundTint="#673AB7"
+        app:cornerRadius="120dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/menu_BTN_exit"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:text="Exit"
+        android:textColor="#20243A"
+        android:textSize="30sp"
+        app:backgroundTint="#DC1A1A"
+        app:cornerRadius="120dp" />
+
+</RelativeLayout>
