@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean pause = false;
     private Random rn = new Random();
-    private boolean send = true;
+    private boolean spawn = true;
     private boolean isEndlessMode = false; // Flag for endless mode
 
     @Override
@@ -192,11 +192,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void vegFromSky() {
-        if (send) {
+        if (spawn) {
             int i = rn.nextInt(3);
             game_IMG_broccoli[0][i].setVisibility(View.VISIBLE);
         }
-        send = !send;
+        spawn = !spawn;
     }
 
     private void moveDownUI() {
