@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".GameOverActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -11,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        android:alpha="0.45"
         app:srcCompat="@drawable/img_background" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -24,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="GAME OVER"
-            android:textColor="#20243A"
+            android:textColor="#FFFFFF"
             android:textSize="50sp" />
 
         <com.google.android.material.textview.MaterialTextView
@@ -33,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Play Again?"
-            android:textColor="#20243A"
+            android:textColor="#FFFFFF"
             android:textSize="45sp" />
 
         <androidx.appcompat.widget.LinearLayoutCompat

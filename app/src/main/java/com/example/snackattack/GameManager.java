@@ -15,7 +15,7 @@ import com.google.android.material.button.MaterialButton;
 import java.util.Random;
 
 public class GameManager {
-    private final int DELAY = 400;
+    private final int DELAY = 700;
     private int lives = 3;
     private final int ROWS = 5, COLS = 3;
     private boolean pause = false;

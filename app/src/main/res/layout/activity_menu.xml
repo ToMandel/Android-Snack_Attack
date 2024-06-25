@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".MenuActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
@@ -11,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
+        android:alpha="0.45"
         app:srcCompat="@drawable/img_background" />
 
     <com.google.android.material.textview.MaterialTextView
@@ -20,7 +22,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Snack Attack"
-        android:textColor="#20243A"
+        android:textColor="#FFFFFF"
         android:textSize="50sp" />
 
     <com.google.android.material.textview.MaterialTextView
@@ -31,7 +33,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="120dp"
         android:text="Choose your Mode:"
-        android:textColor="#20243A"
+        android:textColor="#FFFFFF"
         android:textSize="45sp" />
 
     <com.google.android.material.button.MaterialButton
@@ -43,7 +45,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
         android:text="Regular Mode"
-        android:textColor="#20243A"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:backgroundTint="#2196F3"
         app:cornerRadius="120dp" />
@@ -57,7 +59,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:text="Endless Mode"
-        android:textColor="#20243A"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:backgroundTint="#673AB7"
         app:cornerRadius="120dp" />
@@ -71,7 +73,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="64dp"
         android:text="Exit"
-        android:textColor="#20243A"
+        android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:backgroundTint="#DC1A1A"
         app:cornerRadius="120dp" />
